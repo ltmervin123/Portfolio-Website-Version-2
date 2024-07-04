@@ -55,11 +55,19 @@ header nav img{
     width: 100vw;
     height: 100vh;
     background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #about{
     width: 100vw;
     height: 100vh;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #gallery{
     width: 100vw;
@@ -79,4 +87,14 @@ footer p{
     color: #fff;
     text-align: center;
     align-content: center;
+    margin: 0;
+}
+
+section h1{
+    text-align: center;
+    align-items: center;
+}
+
+#about img{
+
 }
