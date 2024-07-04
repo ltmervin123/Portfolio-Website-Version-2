@@ -35,10 +35,15 @@ header nav a{
     text-decoration: none;
 }
 
+header nav a li:hover{
+    color: #7843e9;
+}
+
 header nav ul li{
     font-size: 1.3em;
     font-weight: bold;
     padding: 22px 30px;
+    transition: 1s;
 }
 
 header nav img{
@@ -67,8 +72,11 @@ header nav img{
     background-color: #fff;
 }
 
-footer{
+footer p{
     width: 100vw;
     height: 10vh;
     background-color: #000;
+    color: #fff;
+    text-align: center;
+    align-content: center;
 }
