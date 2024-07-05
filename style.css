@@ -146,9 +146,9 @@ section .social img:hover {
   background-color: #fff;
 }
 
-footer p {
+footer{
   width: 100vw;
-  height: 10vh;
+  height: 15vh;
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -290,4 +290,22 @@ footer p {
 
 #contact h3 {
   margin: 0;
+}
+
+footer p, footer hr{
+  margin: 0;
+  color: #fafafa;
+  margin: auto;
+}
+
+footer hr{
+  width: 50%;
+  height: 1px;
+  border: none;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+}
+
+footer .social{
+  font-weight: bold;
 }
