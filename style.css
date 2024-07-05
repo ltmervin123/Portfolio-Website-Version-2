@@ -57,6 +57,7 @@ header nav img {
   width: 80px;
 }
 
+
 #hero {
   width: 100vw;
   height: 100vh;
@@ -107,6 +108,7 @@ section .button:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 70px
 }
 #gallery {
   width: 100vw;
@@ -128,7 +130,32 @@ footer p {
   align-content: center;
   margin: 0;
 }
+#about h1{
+  color: #8658e7;
+}
 
+#about > h1{
+  color: #8658e7;
+  font-size: 4rem;
+}
 
-#about img {
+#about .about-container{
+  width: 100%;
+  display: flex;
+}
+
+#about .about-container div{
+  width: 33%;
+  height: auto ;
+}
+
+.about-container ul li{
+  list-style-type: none;
+}
+
+.about-container > div{
+  background-color: #fafafa;
+  gap: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
 }
